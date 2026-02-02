@@ -87,7 +87,7 @@ flex: 1;
 
 project img {
 width: 100;
-max-width: 600px;
+max-width: 100px;
 height: auto;
 display: block;
 margin: 15px auto;
@@ -102,3 +102,21 @@ project img {
 max-width: 20%;
 }
 }
+
+/* project images - mobile fix*/
+.project img {
+width: 100;
+max-width: 100%;
+height: auto;
+display: block;
+margin 15px auto;
+}
+
+@media (max-width: 768px) {
+.project img {
+width: 100%;
+max-width: 100%;
+}
+}
+
+
