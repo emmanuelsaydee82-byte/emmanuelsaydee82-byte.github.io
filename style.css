@@ -96,3 +96,9 @@ margin: 15px auto;
 project {
 margin-bottom: 30px;
 }
+
+@media (mix-width: 768px) {
+project img {
+max-width: 90%;
+}
+}
