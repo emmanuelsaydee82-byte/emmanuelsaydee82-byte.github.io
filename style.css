@@ -97,8 +97,8 @@ project {
 margin-bottom: 30px;
 }
 
-@media (mix-width: 768px) {
+@media (mix-width: 30px) {
 project img {
-max-width: 90%;
+max-width: 20%;
 }
 }
