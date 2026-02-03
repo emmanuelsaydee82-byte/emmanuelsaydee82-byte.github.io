@@ -127,3 +127,25 @@ height: auto;
 body {
 overflow-x: height
 }
+
+/* project page styling */
+
+.project-card {
+max-width: 700px;
+margin: 30px auto;
+padding: 15px;
+}
+
+.project-card img {
+width: 100%;
+height: auto;
+display: block;
+border-radius: 6px;
+}
+
+.project-link {
+display: inline-block;
+margin-top: 10px;
+color: #0b4f6c'
+font-weight: blod;
+}
